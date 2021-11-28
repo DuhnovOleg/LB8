@@ -153,7 +153,7 @@ void paragrah_1(int** t, int n)
 			domin[i] = 1;
 
 	printf("\nРадиус: %d", r); printf("\nДиаметр: %d", d);
-	printf("\n\nПереферийные вершины: ");
+	printf("\n\nПерефирийные вершины: ");
 	for (int i = 0; i < n; i++)
 		if (extr[i] == d) printf("%d ", i + 1);
 	printf("\nЦентральные вершины: ");
@@ -252,7 +252,7 @@ void paragrah_2(int** A, int n)
 			r = extr[i];
 	}
 	printf("\nРадиус: %d", r); printf("\nДиаметр: %d", d);
-	printf("\n\nПереферийные вершины: ");
+	printf("\n\nПерефирийные вершины: ");
 	for (int i = 0; i < n; i++)
 		if (extr[i] == d) printf("%d ", i + 1);
 	printf("\nЦентральные вершины: ");
